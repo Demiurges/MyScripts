@@ -1,9 +1,9 @@
 #!/bin/bash
 #The clock will be set up with the switches in the following setup.
-# HR8 MR8 SR8
-# HR4 ML4 MR4 SL4 SR4
-# HL2 HR2 ML2 MR2 SL2 SR2
-# HL1 HR1 ML1 MR1 SL1 SR1
+# HR8		MR8		SR8
+# HR4	ML4	MR4	SL4	SR4
+# HL2	HR2	ML2	MR2	SL2	SR2
+# HL1	HR1	ML1	MR1	SL1	SR1
 while :
   do
     HOUR=`date +%H`
@@ -164,8 +164,8 @@ while :
   echo
   echo " The time is $HOUR:$MIN:$SEC"
   echo
-  echo -e "\t $HR8 $MR8 $SR8"
-  echo -e "\t $HR4 $ML4 $MR4 $SL4 $SR4"
+  echo -e "\t  $HR8   $MR8   $SR8"
+  echo -e "\t  $HR4 $ML4 $MR4 $SL4 $SR4"
   echo -e "\t$HL2 $HR2 $ML2 $MR2 $SL2 $SR2"
   echo -e "\t$HL1 $HR1 $ML1 $MR1 $SL1 $SR1"
   echo
